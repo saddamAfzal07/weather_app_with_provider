@@ -20,8 +20,8 @@ class _AirHumidityState extends State<AirHumidity> {
   Widget build(BuildContext context) {
     return Expanded(
       child: Container(
-        height: 180,
-        margin: const EdgeInsets.symmetric(horizontal: 20),
+        height: 170,
+        margin: const EdgeInsets.symmetric(horizontal: 6),
         decoration: BoxDecoration(
             color: Colors.white.withOpacity(0.5),
             borderRadius: BorderRadius.circular(15)),

@@ -21,7 +21,7 @@ class _SearchTempState extends State<SearchTemp> {
   Widget build(BuildContext context) {
     var state = Provider.of<WeatherController>((context), listen: true);
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 20),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 20),
       child: Container(
         padding: const EdgeInsets.symmetric(
           horizontal: 15,
